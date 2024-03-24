@@ -1,16 +1,8 @@
-/**
- * Assignment: life
- * Name:TODO
- * PID :TODO
- * Class: UCSD CSE30-SP21
- *
- */
 #ifndef _BOARD_H
 #define _BOARD_H
 #include "cse30life.h"
 
 // we can change the board type to different sizes to see how this affects the speed.
-// DO NOT CHANGE - libcse30life library assumes unsigned char
 typedef unsigned char belem;
 
 
