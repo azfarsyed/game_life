@@ -1,11 +1,3 @@
-
-/**
-  * Assignment: life
-  * Name: Azfar Syed
-  * PID: A17267531
-  * Class: UCSD CSE30-SP21
-  */
-
 #include "sim.h"
 
 #define CIMP
