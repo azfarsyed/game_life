@@ -1,10 +1,3 @@
-/**
- * Assignment: life
- * Name AZFAR SYED	
- * PID: A17267531
- * Class: UCSD CSE30-SP21
- *
- */
 #include "cse30life.h"
 #include "board.h"
 
