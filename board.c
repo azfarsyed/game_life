@@ -40,7 +40,7 @@ boards_t * createBoard(char *initFileName){
 
   clearBoards(board); 
   while(fscanf(fp, "%zu %zu",&numOne, &numTwo) > 0) { 
-      size_t index = getIndex(board->numCols, numOne, numTwo);
+      size_t index = getIndex(board->numCols, numOne, numTwo); //txt file provides which cells are alive in gen 0
       board->currentBuffer[index] = 1;
   }
   board->gen = 0;
