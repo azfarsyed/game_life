@@ -24,7 +24,7 @@ static void doRow(belem *dest, belem *src, size_t row, size_t rows, size_t cols)
         } 
         size_t adjRow = getModVal(row + j, rows); 
         size_t adjCol = getModVal(i + k, cols); 
-        neighbors += src[getIndex(cols, adjRow, adjCol)]; 
+        neighbors += src[getIndex(cols, adjRow, adjCol)]; //if cell is alive, src[index] = 1
       }
     } 
     size_t index = getIndex(cols, row, i); 
