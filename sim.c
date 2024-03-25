@@ -19,7 +19,7 @@ static void doRow(belem *dest, belem *src, size_t row, size_t rows, size_t cols)
     int neighbors = 0; 
     for(int j = -1; j <= 1; j++) { 
       for(int k = -1; k <= 1; k++) { 
-        if(j == 0 && k == 0) { 
+        if(j == 0 && k == 0) {  //represents the current cell itself
           continue; 
         } 
         size_t adjRow = getModVal(row + j, rows); 
